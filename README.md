@@ -10,14 +10,12 @@ Installation:
 
    opkg install python-pip
 
-   wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py --no-check-certificate
-
-   python ez_setup.py
-
 2. Type: pip install paho-mqtt
 
 3. scp the mqtt-client.py to your Conduit
 
-4. Run it: python mqtt-client.py
+4. Run it: chmod +x mqtt-client.py
+
+   python mqtt-client.py
 
  
